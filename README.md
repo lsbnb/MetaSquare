@@ -43,3 +43,6 @@ qiime taxa barplot \
 ```
 6. QZV file could be analysis on website [**QIIME 2 View**](https://view.qiime2.org/)
 
+**Version history:**
+
+First Version: v1.0, 2, June, 2021
