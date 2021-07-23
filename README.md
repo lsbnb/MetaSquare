@@ -46,3 +46,9 @@ qiime taxa barplot \
 **Version history:**
 
 First Version: v1.0, 2, June, 2021
+
+**Reference:**
+1.https://github.com/rrwick/Porechop
+2.Wood, D.E., Lu, J. & Langmead, B. Improved metagenomic analysis with Kraken 2. Genome Biol 20, 257 (2019). https://doi.org/10.1186/s13059-019-1891-0
+2.Bolyen E, et. al 2019. Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. Nature Biotechnology 37: 852–857. https://doi.org/10.1038/s41587-019-0209-9
+
