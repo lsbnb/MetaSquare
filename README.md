@@ -2,7 +2,7 @@
 
 ## Metasquare for Nanopore 16S full-length ampricons analysis
 
-1. Download **Metasquare_Kraken2_database**from to the https://hub.docker.com/r/lsbnb/metasquare_db 
+1. Download **Metasquare_Kraken2_database** from to the https://hub.docker.com/r/lsbnb/metasquare_db 
 2. Transfer **Metasquare_Kraken2_database** to the ***output_dir***
 3. Run Porechop to clean up the sequences before classification
 ```
