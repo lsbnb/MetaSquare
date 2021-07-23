@@ -1,9 +1,9 @@
-# MetaSquare
+# MetaSquare 1.0
 
 ## Metasquare for Nanopore 16S full-length ampricons analysis
 
-1. Download **Metasquare_Kraken2_database.7z** to the ***output_dir*** 
-2. Unzip **Metasquare_Kraken2_database.7z** 
+1. Download **Metasquare_Kraken2_database**from to the https://hub.docker.com/r/lsbnb/metasquare_db 
+2. Transfer **Metasquare_Kraken2_database** to the ***output_dir***
 3. Run Porechop to clean up the sequences before classification
 ```
 $docker run --rm -v $(pwd):/data --name=porechop -it robegan21/porechop
@@ -18,7 +18,7 @@ kraken2 -db Metasquare_Kraken2_database --threads N --report seq.fasta.report se
 ```
 6. The .report file could be vizualized and analyzed through online-tool [**Pavian**](http://mirai.iis.sinica.edu.tw:5000/)
 ## Metasquare for illumina 16S variants 3-4 ampricons analysis
-1. Download Metasquare_QIIME2_V3V4_classifier.qza to target folder
+1. Download combine6DB_V3V4_classifier.qza to target folder from https://hub.docker.com/r/lsbnb/metasquare_db
 2. Initialize **QIIME2** 2019.10 version
 ```
 $docker run -t -i -v $(pwd):/data quay.io/qiime2/core:2019.10 qiime
