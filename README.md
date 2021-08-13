@@ -22,6 +22,8 @@ kraken2 -db Metasquare_Kraken2_database --threads N --report seq.fasta.report se
 ## Metasquare for illumina 16S variants 3-4 ampricons analysis
 1. Download combine6DB_V3V4_classifier.qza to target folder from https://hub.docker.com/r/lsbnb/metasquare_db
 2. Initialize **QIIME2** 2019.10 version
+
+P.S. Because our Classifer are trained with QIIME2 2019.10 version, it is necessary to use QIIME2 2019.10 version for following classification.
 ```
 $docker run -t -i -v $(pwd):/data quay.io/qiime2/core:2019.10 qiime
 $cd data
@@ -45,7 +47,6 @@ qiime taxa barplot \
 ```
 6. QZV file could be analysis on website [**QIIME 2 View**](https://view.qiime2.org/)
 
-P.S. Because our Classifer are trained with QIIME2 2019.10 version, it is necessary to use QIIME2 2019.10 version for following classification.
 
 **Version history:**
 
