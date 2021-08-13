@@ -1,4 +1,6 @@
 # MetaSquare 1.0
+## Introduction
+Taxonomy classification is a crucial component of metagenome analysis. Since next-generation sequencing has been the majority method to generate those data, accurately identifying these se-quences has become fundamental to research in a microbial community study. 16S amplicon analysis is one of the standard processes to identify metagenome taxonomy. However, only a few databases are available for 16S amplicon analysis, and most popular and extensive databases, such as Silva, have their limitations. To improve classification efficiency, we use the computational method to integrate those popular databases and establish a meta-metagenome database called MetaSquare.
 
 ## Metasquare for Nanopore 16S full-length ampricons analysis
 
