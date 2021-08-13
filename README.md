@@ -45,6 +45,8 @@ qiime taxa barplot \
 ```
 6. QZV file could be analysis on website [**QIIME 2 View**](https://view.qiime2.org/)
 
+P.S. Because our Classifer are trained with QIIME2 2019.10 version, it is necessary to use QIIME2 2019.10 version for following classification.
+
 **Version history:**
 
 First Version: v1.0, 2, June, 2021
