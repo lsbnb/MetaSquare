@@ -18,7 +18,7 @@ $porechop -i output_reads_1.fastq.gz -b output_dir/seq.fastq
 ```
 kraken2 -db Metasquare_Kraken2_database --threads N --report seq.fasta.report seq.fastq
 ```
-6. The .report file could be vizualized and analyzed through online-tool [**Pavian**](http://mirai.iis.sinica.edu.tw:5000/)
+6. The .report file could be vizualized and analyzed through online-tool [**Pavian**](https://github.com/fbreitwieser/pavian)
 ## Metasquare for illumina 16S variants (V3-V4) amplicons analysis
 1. Download combine6DB_V3V4_classifier.qza to target folder from https://hub.docker.com/r/lsbnb/metasquare_db
 2. Initialize **QIIME2** 2019.10 version
