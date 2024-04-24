@@ -61,3 +61,7 @@ First Version: v1.0, 2, June, 2021
 
 3.Bolyen E, et. al 2019. Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2. Nature Biotechnology 37: 852–857. https://doi.org/10.1038/s41587-019-0209-9
 
+**Citation:**
+
+1. Chun-Chieh Liao, Po-Ying Fu, Chih-Wei Huang, Chia-Hsien Chuang, Yun Yen, Chung-Yen Lin, Shu-Hwa Chen, MetaSquare: an integrated metadatabase of 16S rRNA gene amplicon for microbiome taxonomic classification, Bioinformatics, Volume 38, Issue 10, May 2022, Pages 2930–2931, https://doi.org/10.1093/bioinformatics/btac184
+
